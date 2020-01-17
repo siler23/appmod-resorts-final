@@ -7,7 +7,7 @@
   <name>modresorts</name>
 
   
-  <version>1.0</version>
+  <version>1.0.0</version>
   <packaging>war</packaging>
 
   <properties>
@@ -94,7 +94,6 @@
         <configuration>
           <failOnMissingWebXml>false</failOnMissingWebXml>
           <packagingExcludes>pom.xml</packagingExcludes>
-          <outputDirectory>data/examples</outputDirectory>
         </configuration>
       </plugin>
     </plugins>
