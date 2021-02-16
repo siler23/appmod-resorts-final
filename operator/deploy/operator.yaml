@@ -17,7 +17,7 @@ spec:
       serviceAccountName: modresorts-operator
       containers:
         - name: modresorts-operator
-          image: openliberty/operator:0.0.1
+          image: image-registry.openshift-image-registry.svc:5000/java-cicd-demo/openliberty-operator:v0.7.0
           imagePullPolicy: Always
           env:
             - name: WATCH_NAMESPACE

@@ -7,7 +7,7 @@ metadata:
 spec:
   replicaCount: 1
   image:
-    repository: image-registry.openshift-image-registry.svc:5000/modresorts:demo
+    repository: image-registry.openshift-image-registry.svc:5000/java-cicd-demo/modresorts:demo 
     tag: latest
     pullPolicy: IfNotPresent
     license: ""
