@@ -1,0 +1,23 @@
+apiVersion: rbac.authorization.k8s.io/v1 
+kind: ClusterRole
+items:
+  - metadata:
+      name: aggregate-open-liberty-admin-edit 
+      labels:
+        rbac.authorization.k8s.io/aggregate-to-admin: "true" 
+        rbac.authorization.k8s.io/aggregate-to-edit: "true" 
+    rules:
+      - apiGroups: ["openliberty.io"] 
+        resources: ["openlibertyapplications"] 
+        verbs: ["get", "list", "watch", "create",
+                "update", "patch", "delete", "deletecollection"] 
+  - metadata:
+      name: aggregate-open-liberty-view 
+      labels:
+        # Add these permissions to the "view" default role.
+        rbac.authorization.k8s.io/aggregate-to-view: "true" 
+        rbac.authorization.k8s.io/aggregate-to-cluster-reader: "true" 
+    rules:
+      - apiGroups: ["openliberty.io"] 
+        resources: ["openlibertyapplications"] 
+        verbs: ["get", "list", "watch"]
