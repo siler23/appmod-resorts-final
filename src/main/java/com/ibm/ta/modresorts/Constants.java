@@ -27,7 +27,7 @@ class Constants {
 	public final static String[] SUPPORTED_CITIES = {PARIS, LAS_VEGAS, SAN_FRANCISCO, MIAMI, CORK, BARCELONA};
 	
 	//public final static String BACELONA_WEATHER_FILE = "barcelona20180810Weather.json";
-	public final static String CORK_WEATHER_FILE = "cork20180810Weather.json";
+	//public final static String CORK_WEATHER_FILE = "cork20180810Weather.json";
 	public final static String LAS_VEGAS_WEATHER_FILE = "lasVegas20180810Weather.json";
 	public final static String MIAMI_WEATHER_FILE = "miami20180810Weather.json";
 	public final static String PARIS_WEATHER_FILE = "paris20180810Weather.json";
