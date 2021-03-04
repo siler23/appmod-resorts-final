@@ -18,7 +18,7 @@ package com.ibm.ta.modresorts;
 class Constants {
 
 	public static final String BARCELONA = "Barcelona";
-	public static final String CORK = "Cork";
+	public static final String CORK = "Corky";
 	public static final String MIAMI = "Miami";
 	public static final String SAN_FRANCISCO = "San_Francisco";
 	public final static String PARIS = "Paris";
